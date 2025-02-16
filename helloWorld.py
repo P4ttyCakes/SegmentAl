@@ -1,2 +1,1 @@
-print("test")
-print("Pycharm proffesional")
+print('Finished Pycharm Support')

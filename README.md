@@ -1,1 +1,3 @@
 # SegmentAl
+
+finished Pycharm Support
