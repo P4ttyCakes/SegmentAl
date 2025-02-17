@@ -17,6 +17,9 @@ change file path to specified image for masking.
 image_path = "/Users/patricklu/Desktop/TestImage.png"
 ```
 
+
+## Example
+
 ![image](https://github.com/user-attachments/assets/ef36a49a-f547-4647-b45d-e61ff7ea630c)
 
 
