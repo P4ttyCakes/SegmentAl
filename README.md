@@ -1,9 +1,10 @@
 # SegmentAl
 
-This python script utilizes the pre-trained DeepLabV3 Segmentation Model with a ResNet-50 CNN to create image masking.
+Built upon the Pytorch Framework, the Python script utilizes a pre-trained DeepLabV3 Segmentation Model with a ResNet-50 Backbone to classify pixel-wise labels and generate segmentation masking.
 
-Firstly, the project pre-processes an image by converting to rgb, adding padding, and normalizes using ImageNet mean and standard deviation.
-The Model then applies segmentation utilizing the DeepLabV3 model to create a segmentation mask, before overlaying it upon the original image,
+Firstly, the project utilizes PIL to load an image, Torchvision to apply padding and transformations, and normalization through ImageNet mean and Standard Deviation,
+
+The Model then utilizes the DeepLabV3 model to create and overlay a segmentation mask upon the original image, displaying the color map and original with Matplotlib.
 
 
 ```bash
@@ -16,5 +17,5 @@ change file path to specified image for masking.
 image_path = "/Users/patricklu/Desktop/TestImage.png"
 ```
 
-##
+## License 
 [MIT](https://choosealicense.com/licenses/mit/)
